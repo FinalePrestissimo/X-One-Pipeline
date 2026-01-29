@@ -1,4 +1,12 @@
 # 环境安装
+
+replay, deploy
+
+## Available APIs
+
+``
+
+
 ``` bash
 # 基础环境安装
 GIT_LFS_SKIP_SMUDGE=1 uv sync
@@ -9,7 +17,7 @@ uv pip install -r requirements.txt
 ```
 
 # 模型部署
-为了方便设置语言指令, task_instructions放置在根目录, 需要link到src中:
+为了方便设置语言指令, task_instructions放置在根目录,  :
 ``` bash
 ln -s task_instructions/ src/robot/
 ```

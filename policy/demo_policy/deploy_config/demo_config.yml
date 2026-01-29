@@ -1,0 +1,3 @@
+save_dir: eval_results/demo_policy/$policy$
+log:
+  output: null
